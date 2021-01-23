@@ -1,0 +1,110 @@
+@media screen and (max-width: 1024px) {
+a.navbar-brand {
+    display: inline-block;
+    width: 200px;
+}
+
+a.navbar-brand img {
+    width: 100%!important;
+}
+li.nav-item.guarantee {
+    width: 152px;
+}
+a.link:before {
+    border-color: rgba(0, 0, 51, 0);
+    border-top-color: transparent;
+    border-width: 6px;
+    margin-left: -6px;
+    position: absolute;
+    width: 0;
+    top: 100%;
+    left: 5px;
+    border-left: 80px solid transparent;
+    border-right: 80px solid transparent;
+    border-top: 40px solid #c38c1c;
+}
+}
+
+@media screen and (max-width: 990px) {
+li.nav-item.guarantee {
+    display: none;
+}
+.graphic-ctnt h2 {
+    color: #fff;
+    font-size: 22px;
+    margin-bottom: 5px;
+    /* margin-right: 10px; */
+}
+
+ }
+
+ @media screen and (max-width: 640px) {
+ 	section.slider {
+    margin-top: 78px!important;
+}
+.owl-theme .owl-controls .owl-nav div.owl-prev {
+    display: block !important;
+}
+.owl-theme .owl-controls .owl-nav div.owl-next {
+    display: block !important;
+}
+.bdr-rt {
+    border-right: 0px solid #a19e9e;
+}
+  }
+
+
+   @media screen and (max-width: 480px) { 
+   	section.slider {
+    margin-top: 78px!important;
+}
+
+   		.package-head h1 {
+    font-size: 28px;
+}
+.slider1.owl-theme .owl-controls .owl-nav div.owl-prev {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    display: block;
+}
+.slider1.owl-theme .owl-controls .owl-nav div.owl-next {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    display: block;
+}
+
+.slider1 .owl-dots {
+    position: absolute;
+    bottom: 2%;
+    left: 41%!important;
+}
+a.btn.btn-default.askus {
+    background: linear-gradient(180deg, rgba(38,189,242,1) 0%, rgba(2,161,229,1) 100%);
+    color: #fff;
+    width: 100%;
+    padding: 9px 80px;
+    transition: 0.3s ease-in-out;
+    margin: 20px 0px;
+}
+
+a.btn.btn-default.order {
+    background: rgb(0,212,65);
+    background: linear-gradient(180deg, rgba(0,212,65,1) 0%, rgba(0,148,64,1) 100%);
+    color: #fff;
+    padding: 9px 80px;
+    transition: 0.3s ease-in-out;
+    margin: 20px 0px;
+    width: 100%;
+}
+a.btn.btn-default.contact {
+    background: rgb(243,218,4);
+    width: 100%;
+    background: linear-gradient(180deg, rgba(243,218,4,1) 0%, rgba(191,138,26,1) 100%);
+    color: #fff;
+    padding: 9px 80px;
+    transition: 0.3s ease-in-out;
+    margin: 20px 0px;
+}
+   }
